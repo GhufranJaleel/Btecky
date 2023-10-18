@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: #009578;
+}
+
+#app{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding:24px;
+    gap:24px;
+
+}
+
+.note{
+    height: 200px;
+    border:none;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+    padding: 16px;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.add-note{
+    height: 238px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+    outline: none;
+    font-size: 140px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.note-title{
+    border:none;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+    padding: 7px;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.add-note:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
